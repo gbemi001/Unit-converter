@@ -42,7 +42,7 @@ function litres_gallons() {
 function gallons_litres() {
     let gTL = inputEl.value / 0.264
     gTL = parseFloat(gTL).toFixed(3)
-    let result = `${inputEl.value} gallons = ${gTL} litres`
+    let result = `${inputEl.value} gallons = ${gTL} liters`
     return result
 }
 
